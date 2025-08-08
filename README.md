@@ -10,7 +10,8 @@ PDF source:  https://www.digitale-sammlungen.de/en/view/bsb10251015
 PDF title: Vikramorvaśī : das ist Urwasi, der Preis der Tapferkeit ; ein Drama Kalidasas in 5 Akten
 - Friedrich Bollensen, 1846
 
-## app0 provides access to pages based on internal page number, 1-608
+## app0 
+Provide access to pages based on internal page number, 1-608
 
 example: https://sanskrit-lexicon-scans.github.io/vikramor/app0/?50
 
