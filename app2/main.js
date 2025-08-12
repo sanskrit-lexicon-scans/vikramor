@@ -138,8 +138,8 @@ function get_verse_from_url() {
  let search = url.search;  // a string, possibly empty
  let defaultval = [0]; // default value
  let x = search.match(/^[?]([0-9]+),([0-9]+)$/);
- console.log('search=',search);
- console.log('x=',x);
+ //console.log('search=',search);
+ //console.log('x=',x);
  if (x == null) {
   return defaultval;
  }
@@ -154,9 +154,9 @@ function get_verse_from_url() {
 
 function display_ipage_url() {
  let url_verse = get_verse_from_url();
- console.log('url_verse=',url_verse);
+ //console.log('url_verse=',url_verse);
  let indexobjs = get_indexobjs_from_verse(url_verse);
- console.log('indexobjs=',indexobjs);
+ //console.log('indexobjs=',indexobjs);
  display_ipage_html(indexobjs);
 }
 
